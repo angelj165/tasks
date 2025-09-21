@@ -1,5 +1,5 @@
 import { Question, QuestionType } from "./interfaces/question";
-import { parseConfigFileTextToJson } from "typescript";
+//import { parseConfigFileTextToJson } from "typescript";
 
 /**
  * Create a new blank question with the given `id`, `name`, and `type. The `body` and

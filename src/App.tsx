@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import dog from "./dog.jpg"
-
+import dog from "./dog.jpg";
 
 function App(): React.JSX.Element {
     return (
@@ -10,7 +9,6 @@ function App(): React.JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
             </header>
-
             <h1> This is header text</h1>
             <p>Angel Jose</p>
             <p>
@@ -18,10 +16,7 @@ function App(): React.JSX.Element {
                 automatically reload.
             </p>
             <p>Hello World!</p>
-            
-      <img src={dog} alt="Dog" />
-
-
+            <img src={dog} alt="Dog" />
             <ol>
                 <li>golden retriever </li>
                 <li>poodle </li>
